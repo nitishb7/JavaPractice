@@ -1,0 +1,13 @@
+package firstProjecct;
+
+public class RightShiftEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int x = 10;
+System.out.println(20>>3);//20/2*2*2 = 20/8 = 2
+System.out.println(20<<3);//20*(2*2*2) = 20/8 = 2
+System.out.println(x<<3);//10*(2*2*2) = 10*8 = 80
+	}
+
+}

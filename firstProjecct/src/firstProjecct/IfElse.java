@@ -1,0 +1,36 @@
+package firstProjecct;
+
+
+
+import java.util.*;
+
+public class IfElse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+//		
+//		System.out.println("Enter a number: ");
+//		int a = sc.nextInt();
+//		
+//		if(a%2 == 0) {
+//			System.out.println("it is even no.");
+//
+//		}else {
+//			System.out.println("It is odd no.");
+//
+//		}
+		////Leap year 
+		
+		System.out.println("Enter a Year: ");
+		int year = sc.nextInt();
+		
+		if((year%4==0 && year%100 !=0)||(year%400==0)) {
+			System.out.println("It is leap year: ");
+		}else {
+			System.out.println("It is not a leap year: ");
+
+		}
+	}
+
+}

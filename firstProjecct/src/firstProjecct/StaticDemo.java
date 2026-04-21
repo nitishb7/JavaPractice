@@ -1,0 +1,20 @@
+package firstProjecct;
+
+public class StaticDemo {
+	static int sno =100;
+	
+	static void display(){
+		System.out.println("static display method");
+	}
+
+	public static void main(String[] args) {
+		System.out.println("directly :"+sno);
+		display();
+		
+		System.out.println("Class Name :"+StaticDemo.sno);
+		StaticDemo.display();
+		
+		StaticDemo sd = new StaticDemo();
+		sd.display();
+}
+}

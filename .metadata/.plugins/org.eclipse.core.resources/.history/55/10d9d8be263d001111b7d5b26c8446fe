@@ -1,0 +1,17 @@
+package FlowControl;
+
+public class Contructor {
+	
+	int i;
+	public Contructor() {
+		i =100;
+		System.out.println("Default value");
+	}
+
+	public static void main(String[] args) {
+		Contructor con= new Contructor();
+		
+
+	}
+
+}

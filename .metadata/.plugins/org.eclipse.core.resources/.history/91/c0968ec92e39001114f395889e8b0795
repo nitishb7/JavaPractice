@@ -1,0 +1,12 @@
+package firstProjecct;
+
+public class first {
+	public static void main(String[] args) {
+		String name = "Nitish";
+		String addr = "Bhaktapur";
+		float num = 250.25f;
+		long salaryPA = 85000;
+		System.out.println(name+"\t"+addr+num+"\t"+salaryPA);
+	}
+
+}

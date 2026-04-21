@@ -1,0 +1,65 @@
+ 
+package firstProjecct;
+import java.util.Scanner;
+public class CalculateEx {
+	int add(int fno, int sno) {
+		return fno + sno;
+	}
+	int sub(int fno, int sno) {
+		return fno - sno;
+	}
+	int mul(int fno, int sno) {
+		return fno * sno;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		CalculateEx c = new CalculateEx();
+		int fno = 0;
+		int sno = 0;
+		int result = 0;
+		while (true) {
+			System.out.println("=============================================");
+			System.out.println("             1)add                           ");
+			System.out.println("             2)sub                           ");
+			System.out.println("             3)mul                           ");
+			System.out.println("             4)exit                           ");
+			System.out.println("=============================================");
+			System.out.println("Enter the choice");
+			int choice = sc.nextInt();
+			switch (choice) {
+			case 1:
+				System.out.println("Enter the First Number : ");
+				fno = sc.nextInt();
+				System.out.println("Enter the Second Number : ");
+				sno = sc.nextInt();
+				result = c.add(fno, sno);
+				System.out.println("Addtion of Two Numbers : " + result);
+				break;
+			case 2:
+				System.out.println("Enter the First Number : ");
+				fno = sc.nextInt();
+				System.out.println("Enter the Second Number : ");
+				sno = sc.nextInt();
+				result = c.sub(fno, sno);
+				System.out.println("Subtract of Two Numbers : " + result);
+				break;
+			case 3:
+				System.out.println("Enter the First Number : ");
+				fno = sc.nextInt();
+				System.out.println("Enter the Second Number : ");
+				sno = sc.nextInt();
+				result = c.mul(fno, sno);
+				System.out.println("Multiplication of Two Numbers : " + result);
+				break;
+			case 4:
+				System.out.println("Thx for using this application");
+				System.exit(0);
+			default:
+				System.out.println("Choose 1 to 4 between");
+			}
+		} // end of while
+	}
+}
+ 
+ 

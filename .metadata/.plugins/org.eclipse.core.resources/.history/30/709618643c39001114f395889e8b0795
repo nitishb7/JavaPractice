@@ -1,0 +1,19 @@
+package firstProjecct;
+
+public class DivTest {
+
+	String div(float a, float b) {
+		float res= a/b;
+		return "Division result: "+res;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		DivTest dt = new DivTest();
+		String result = dt.div(10, 5);
+		
+		System.out.println("Division result: "+ result);
+
+	}
+
+}

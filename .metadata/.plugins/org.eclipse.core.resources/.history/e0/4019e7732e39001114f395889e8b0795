@@ -1,0 +1,11 @@
+package firstProjecct;
+
+public class first {
+	public static void main(String[] args) {
+		String name = "Nitish";
+		String addr = "Bhaktapur";
+
+		System.out.println(name+addr);
+	}
+
+}

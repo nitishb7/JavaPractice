@@ -1,0 +1,22 @@
+package FlowControl;
+
+public class Employee {
+	
+	int empId;
+	String empName;
+	int salary;
+	
+	public int setEmpId(int empId) {
+		this.empId = empId;
+	}
+	
+	public void getEmpId() {
+		return empId;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
