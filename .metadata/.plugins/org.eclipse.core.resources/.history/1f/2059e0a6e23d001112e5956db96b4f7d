@@ -1,0 +1,23 @@
+package FlowControl;
+
+public class MinAndMax {
+	
+	static void minValue(int ar[]) {
+		int min = ar[0];
+		for (int i = 0; i<ar.length;++i) {
+			if(ar[i]<min) {
+				min = ar[i];
+				
+			}
+		}
+		System.out.println("min val: "+ min);
+	}
+
+	public static void main(String[] args) {
+		
+		int ar[]= {10,5,2,50,1};
+		
+
+	}
+
+}
